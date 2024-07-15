@@ -1,0 +1,24 @@
+{
+  "name": "monaco-wrapper-react-test",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@codingame/monaco-vscode-python-default-extension": "^7.0.5",
+    "@typefox/monaco-editor-react": "^4.3.2",
+    "monaco-editor-wrapper": "^5.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^0.6.13",
+    "@rsbuild/plugin-react": "^0.6.13",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.4.2"
+  }
+}
